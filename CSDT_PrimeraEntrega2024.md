@@ -13,13 +13,13 @@ _SonarLint es un plugin que nos permite en tiempo real ver smell codes o issues 
 ## SonarLin en acción ⚙️
 
 _Para ver a detalle el estado del proyecto, realizaremos un escaneo total con el plugin SonarLint_
-![sonarlin1](java/src/main/resources/sonarlin1.png)
+![sonarlin1](java/src/main/resources/sonarlin2.png)
 
-_una vez finalizado el escaneo obtenemos un reporte indicando todas las issues o codesmells encontrados, revisemos el reporte:_
-![sonarlin2](java/src/main/resources/sonarlin2.png)
+_una vez finalizado el escaneo obtenemos un reporte que nos indica hay 83 issues a resolver o 83 code smells:_
+![sonarlin2](java/src/main/resources/sonarlin3.png)
 
 _Abramos la clase que más issues tiene para observar como se estructuran los reportes:_
-![sonarlin3](java/src/main/resources/sonarlin3.png)
+![sonarlin3](java/src/main/resources/sonarlin1.png)
 
 _Como podemos ver en la imagen al desplegar la clase deseada vemos las issues que se encontraron ordenadas de mayor a menor impacto en un atributo de calidad especifico, identificadas con color rojo , amarillo y azul, de mayor a menor impacto respectivamente._
 
@@ -37,12 +37,14 @@ _En el recuadro de arriba nos muestra un ejemplo de como no está bien el códig
 ![sonarlin6](java/src/main/resources/sonarlin6.png)
 
 ## Conclusiones 🩹
-_El estado actual del proyecto es grave ya que poseemos 83 issues a resolver que sin duda son posibles con lo que queda del curso_
-_El proyecto incumple varios atributos de calidad y de clean code, teniendo una deuda técnica considerable_
-_El Plugin SonarLin nos es de gran ayuda debido a la versión del proyecto que no permite ser analizado de manera local ni por un workflow en gitActions con SonarCloud , siendo asi  una alternativa que nos permite analizar el código de una manera facil y rapida._
+  1. _El estado actual del proyecto es grave ya que poseemos 83 issues a resolver que sin duda son posibles con lo que queda del curso_
+  
+  2. _El proyecto incumple varios atributos de calidad y de clean code, teniendo una deuda técnica considerable_
+  
+  3. _El Plugin SonarLin nos es de gran ayuda debido a la versión del proyecto que no permite ser analizado de manera local ni por un workflow en gitActions con SonarCloud , siendo asi  una alternativa que nos permite analizar el código de una manera facil y rapida._
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+_herramientas que utilizadas para en el proyecto_
 
 * [github](https://github.com/) - Gestión de Versiones
 * [gradle](https://gradle.org/) - Manejador de dependencias
