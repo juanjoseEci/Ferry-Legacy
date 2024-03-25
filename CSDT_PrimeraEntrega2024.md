@@ -10,7 +10,7 @@ _Este proyecto al ser creado con una versión 0.52 no se puede analizar con la p
 _SonarLint es un plugin que nos permite en tiempo real ver smell codes o issues directamente en nuestro IDE en la clase que estemos parados actualmente permitiendo corregir errores encontrados de manera facil o tambien podemos realizar un escaneo detallado del proyecto para ver el estado actual del mismo_
 ![sonarlin0](java/src/main/resources/sonarlin0.png)
 
-## SonarLin en acción ⚙️
+## SonarLint en acción ⚙️
 
 _Para ver a detalle el estado del proyecto, realizaremos un escaneo total con el plugin SonarLint_
 ![sonarlin1](java/src/main/resources/sonarlin2.png)
@@ -41,7 +41,8 @@ _En el recuadro de arriba nos muestra un ejemplo de como no está bien el códig
   
   2. _El proyecto incumple varios atributos de calidad y de clean code, teniendo una deuda técnica considerable_
   
-  3. _El Plugin SonarLin nos es de gran ayuda debido a la versión del proyecto que no permite ser analizado de manera local ni por un workflow en gitActions con SonarCloud , siendo asi  una alternativa que nos permite analizar el código de una manera facil y rapida._
+  3. _El Plugin SonarLint nos es de gran ayuda debido a la versión del proyecto que no permite ser analizado de manera local ni por un workflow en gitActions con SonarCloud , siendo asi  una alternativa que nos permite analizar el código de una manera facil y rapida._
+  4. _El Plugin SonarLint no permite revisar vulnerabilidad ni cuanto codigo está cubierto entre otras cosas, esto siendo una desventaja ya que tenemos que buscar una herramienta que nos permite revisar estos aspectos.
 ## Construido con 🛠️
 
 _herramientas que utilizadas para en el proyecto_
