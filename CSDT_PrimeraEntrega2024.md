@@ -5,7 +5,7 @@ _Ferry legacy es un proyecto para refinar nuestras habilidades en la detección 
 ## Comenzando 🚀
 _En entregas anteriores analizamos la deuda técnica del proyecto de manera general y establecimos unas posibles soluciones para reducir la misma. Ya habiendo identificado la deuda tecnica a manera general vamos a hacerlo de manera especifica , para esto usaremos herramientas de control de calidad que analicen el codigo, como lo es el caso de sonarcloud._
 
-_Este proyecto al ser creado con una versión 0.52 no se puede analizar con la plataforma sonarcloud con GitActions, asi que optaremos por otra alternativa: Sonarlint_ 
+_Este proyecto al ser creado con una versión bastante antigua no se puede analizar con la plataforma sonarcloud con GitActions, inicialmente se habia propuesto esta herramienta y al intentar linkear el proyecto con gitActions obtenemos bastantes errores de lectura impidiendo ser analizado con SonarCloud, asi que optaremos por otra alternativa: Sonarlint_ 
 
 _SonarLint es un plugin que nos permite en tiempo real ver smell codes o issues directamente en nuestro IDE en la clase que estemos parados actualmente permitiendo corregir errores encontrados de manera facil o tambien podemos realizar un escaneo detallado del proyecto para ver el estado actual del mismo_
 ![sonarlin0](java/src/main/resources/sonarlin0.png)
