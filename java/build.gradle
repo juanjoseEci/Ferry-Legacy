@@ -4,7 +4,7 @@ plugins {
 
 sonar {
   properties {
-    property "sonar.projectKey", "juanjoseEci_legacy-ferry-booking-system"
+    property "sonar.projectKey", "juanjoseEci_Ferry-Legacy"
     property "sonar.organization", "juanjoseeci"
     property "sonar.host.url", "https://sonarcloud.io"
   }
