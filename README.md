@@ -50,3 +50,17 @@ There's a bug within this code base, the time table that is printed is missing a
 3. Refactoring (Refactorización): La refactorización es el proceso de reestructurar el código sin cambiar su comportamiento externo. Esto ayuda a mejorar la calidad del código al eliminar duplicaciones, simplificar la lógica y mejorar la legibilidad.
 
 4. Simple Design (Diseño Simple): Seguir el principio de diseño simple ayuda a mantener el código limpio y fácil de entender. Se deben evitar soluciones complejas y buscar la simplicidad en el diseño del código.
+
+## Identificar en su proyecto cuales prácticas de Testing Debt se presentan y documentar con ejemplos si aplica:
+
+1. Falta de Pruebas Unitarias: El proyecto no tiene pruebas unitarias implementadas, lo que puede llevar a problemas de calidad, mantenibilidad y escalabilidad en el código. Es importante implementar pruebas unitarias para validar el comportamiento de las distintas partes del sistema de forma individual.
+2. Falta de Cobertura de Pruebas: Aunque no se especifica directamente en el contexto proporcionado, la falta de pruebas unitarias implica una falta de cobertura de pruebas en el proyecto. La cobertura de pruebas es importante para garantizar que se están probando adecuadamente todas las funcionalidades del sistema.
+3. Ausencia de Integración Continua (CI): No se menciona la presencia de un pipeline de integración continua en el proyecto. La integración continua es una práctica importante que ayuda a identificar errores de manera temprana al integrar y probar el código de forma automática y frecuente.
+4. Ausencia de Documentación de Casos de Uso: No se menciona la presencia de documentación de casos de uso en el proyecto. La documentación de casos de uso es esencial para comprender y comunicar claramente los requisitos y funcionalidades del sistema.
+
+### Ejemplos
+- Implementación de Pruebas Unitarias: Se podrían crear pruebas unitarias para las clases y métodos clave del proyecto, como las clases AvailableCrossing, JourneyBookingService, y Ferry. Estas pruebas ayudarían a validar el comportamiento de las funciones de manera aislada y a detectar posibles errores.
+- Cobertura de Pruebas: Se debería asegurar una cobertura adecuada de pruebas para todas las funcionalidades del sistema. Esto implica escribir pruebas para cubrir diferentes casos de uso y escenarios, con el objetivo de garantizar que el código funciona correctamente en diversas situaciones.
+- Integración Continua: Se podría implementar un pipeline de integración continua que compile el código, ejecute las pruebas automáticamente y genere informes sobre la calidad del código. Esto ayudaría a identificar problemas de integración y errores de manera temprana en el ciclo de desarrollo.
+- Documentación de Casos de Uso: Se podría documentar los casos de uso principales del sistema, como la búsqueda de viajes disponibles, la reserva de asientos en un viaje, y la finalización de la compra del viaje. Esto ayudaría a comprender y comunicar claramente los requisitos y funcionalidades del sistema.
+
