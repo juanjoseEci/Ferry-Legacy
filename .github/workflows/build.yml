@@ -39,11 +39,9 @@ jobs:
         run: cd java && ./gradlew build sonar --info
       - name: Run unit tests
         run: ./java/gradlew test --info
-      - name: Notify Slack
-        if: failure()
-        uses: 8398a7/action-slack@v3
+      - name: Dependency Check
+        uses: OWASP/Dependency-Check_Action@v2
         with:
-          status: ${{ job.status }}
-          fields: repo,message,commit,author,action,eventName,ref,workflow,job,took
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          project: 'Ferry Proyect'
+          scan: '.'
+          format: 'ALL'
