@@ -36,7 +36,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: ./java/gradlew build sonar --info
+        run: cd java && ./gradlew build sonar --info
       - name: Run unit tests
         run: ./java/gradlew test --info
       - name: Notify Slack
