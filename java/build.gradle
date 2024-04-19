@@ -31,7 +31,7 @@ repositories {
     mavenCentral()
 }
 
-dependencies {dependencies {
+dependencies {
     implementation 'org.json:json:20160212'
     implementation 'commons-io:commons-io:2.4'
     testImplementation 'junit:junit:4.12'
