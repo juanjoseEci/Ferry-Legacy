@@ -18,6 +18,8 @@ jobs:
         with:
           java-version: 17
           distribution: 'zulu' # Alternative distribution options are available
+      - name: Convert gradlew to Unix format
+        run: sed -i 's/\r$//' ./java/gradlew && chmod +x ./java/gradlew
       - name: Cache SonarCloud packages
         uses: actions/cache@v3
         with:
@@ -37,3 +39,11 @@ jobs:
         run: ./java/gradlew build sonar --info
       - name: Run unit tests
         run: ./java/gradlew test --info
+      - name: Notify Slack
+        if: failure()
+        uses: 8398a7/action-slack@v3
+        with:
+          status: ${{ job.status }}
+          fields: repo,message,commit,author,action,eventName,ref,workflow,job,took
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
