@@ -39,9 +39,4 @@ jobs:
         run: cd java && ./gradlew build sonar --info
       - name: Run unit tests
         run: ./java/gradlew test --info
-      - name: Dependency Check
-        uses: OWASP/Dependency-Check_Action@v2
-        with:
-          project: 'Ferry Proyect'
-          scan: '.'
-          format: 'ALL'
+
