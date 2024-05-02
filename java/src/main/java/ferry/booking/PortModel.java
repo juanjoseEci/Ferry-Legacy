@@ -7,8 +7,8 @@ import java.util.Map;
 
 public class PortModel {
 
-    public int id;
-    public String name;
+    public static final int ID;
+    public static final String NAME;
 
     private final Map<Integer, Long> boatAvailability = new HashMap<>();
     private final List<Ferry> boats = new ArrayList<>();

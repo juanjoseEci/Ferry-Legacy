@@ -12,7 +12,8 @@ public class FerryModule {
 
         long arrivalTime = timetable.time + timetable.journeyTime;
         int turnaroundTime = FerryManager.getFerryTurnaroundTime(destination);
-        long timeReady = arrivalTime + turnaroundTime;
-        return timeReady;
+        return = arrivalTime + turnaroundTime;
+    }
+    private FerryModule(){
     }
 }

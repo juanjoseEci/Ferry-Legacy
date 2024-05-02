@@ -38,4 +38,6 @@ public class FerryManager {
         }
         return 15;
     }
+    private FerryManager(){
+    }
 }

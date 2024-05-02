@@ -10,7 +10,7 @@ import static ferry.booking.Util.readFileToString;
 
 public class Ferries {
 
-    private final List<Ferry> ferries = new ArrayList<>();
+    private final List<Ferry> ferry = new ArrayList<>();
 
     public Ferries() {
         String file = "/ferries.txt";

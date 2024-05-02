@@ -4,6 +4,9 @@ import java.util.List;
 
 public class TimeTable {
 
-    public int id;
-    public List<TimeTableEntry> entries;
+    public static final int ID;
+    public static final List<TimeTableEntry> ENTRIES;
+    private TimeTable(){
+
+    }
 }

@@ -2,6 +2,8 @@ package ferry.booking;
 
 public class Booking {
 
-    public int journeyId;
-    public int passengers;
+    public static final int JOURNEYID;
+    public static final int PASSANGERS;
+    private Booking(){
+    }
 }

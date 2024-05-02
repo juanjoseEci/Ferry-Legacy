@@ -2,11 +2,11 @@ package ferry.booking;
 
 public class TimeTableViewModelRow {
 
-    public String ferryName;
-    public String destinationPort;
-    public String originPort;
-    public String startTime;
-    public String journeyLength;
-    public String arrivalTime;
+    public static final String FERRYNAME;
+    public static final String DESTINATIONPORT;
+    public static final String ORIGINPORT;
+    public static final String STARTTIME
+    public static final String JOURNEYLENGHT;
+    public static final String ARRIVALTIME;
     public int journeyId;
 }

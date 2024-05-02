@@ -15,7 +15,7 @@ import static ferry.booking.Util.readFileToString;
 
 public class Ports {
 
-    private final List<Port> ports = new ArrayList<>();
+    public final List<Port> port = new ArrayList<>();
 
     public Ports() {
         try {

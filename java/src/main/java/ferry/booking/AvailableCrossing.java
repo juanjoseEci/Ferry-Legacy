@@ -2,13 +2,13 @@ package ferry.booking;
 
 public class AvailableCrossing {
 
-    public String ferryName;
-    public String originPort;
-    public String destinationPort;
-    public long setOff;
-    public long arrive;
-    public int seatsLeft;
-    public int journeyId;
+    public static final String FERRYNAME;
+    public static final String ORIGINPORT;
+    public static final String DESTINATIONPORT;
+    public static final long SETOFF;
+    public static final long ARRIVE;
+    public static final int SEATSLEFT;
+    public static final int JOURNEYID;
+    private AvailableCrossing() {
+    }
 }
-
-// propon las pruebas unitarias para este codigo

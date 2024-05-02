@@ -2,7 +2,10 @@ package ferry.booking;
 
 public class FerryJourney {
 
-    public Ferry ferry;
-    public PortModel origin;
-    public PortModel destination;
+    public static final Ferry ferry;
+    public static final PortModel origin;
+    public static final PortModel destination;
+
+    private FerryJourney(){
+    }
 }

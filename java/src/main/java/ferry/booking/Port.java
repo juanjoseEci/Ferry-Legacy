@@ -2,6 +2,6 @@ package ferry.booking;
 
 public class Port {
 
-    public int id;
-    public String name;
+    public static final int ID;
+    public static final int String NAME;
 }
