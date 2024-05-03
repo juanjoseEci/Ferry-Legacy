@@ -18,7 +18,7 @@ class FerryAvailabilityServiceTest {
     }
 
     @Test
-    void testNextFerryAvailableFrom_ReturnsNullWhenNoFerryIsAvailable() {
+    void baaaaaa() {
         // Arrange
         int portId = 1;
         long time = 1000;
@@ -33,7 +33,7 @@ class FerryAvailabilityServiceTest {
     }
 
     @Test
-    void testNextFerryAvailableFrom_ReturnsFerryWhenAvailable() {
+    void baaaa() {
         // Arrange
         int portId = 1;
         long time = 1000;
